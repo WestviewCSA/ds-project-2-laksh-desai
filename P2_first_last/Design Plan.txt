@@ -5,3 +5,7 @@ Due: 3/12/25 11:59pm
 After reading the specs, start populating 
 a list of things you think you might have to 
 do to finish this project
+
+Day 1(3/10/2025):
+1) read through specs
+2) 
