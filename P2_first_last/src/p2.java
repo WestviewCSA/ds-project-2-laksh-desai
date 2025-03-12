@@ -21,6 +21,19 @@ public class p2 {
 			int numCols  = scanner.nextInt();
 			int numRooms = scanner.nextInt();
 
+			int rowIndex = 0;
+			
+			while(scanner.hasNextLine()) {
+				String row = scanner.nextLine();
+				
+				if(row.length()>0) {
+					for(int i = 0; i < numCols && i < row.length(); i++) {
+						char el = row.charAt(i);
+						Tile obj = new Tile(rowIndex, i, el);
+					}
+				}
+			}
+			
 		}catch(FileNotFoundException e) {
 			//handle exception
 			System.out.println(e);
