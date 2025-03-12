@@ -8,4 +8,12 @@ do to finish this project
 
 Day 1(3/10/2025):
 1) read through specs
+2) create some maps
+
+Day 2(3/11/2025):
+1) work on some file reading code with Mr.David
+2) Create map and tile files
+
+Day 3(3/12/2025):
+1) work more on file reading
 2) 
