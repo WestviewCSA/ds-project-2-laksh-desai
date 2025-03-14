@@ -7,13 +7,11 @@ public class p2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("p2");
-		readMap("Map1");
-		
+		readMap("Map1");	
 	}
 	
 	public static void readMap(String filename) {
-		
-		try {
+		try { 
 			File file = new File(filename);
 			Scanner scanner = new Scanner(file);
 			
@@ -37,8 +35,6 @@ public class p2 {
 		}catch(FileNotFoundException e) {
 			//handle exception
 			System.out.println(e);
-		}
-		
+		}	
 	}
-
 }
